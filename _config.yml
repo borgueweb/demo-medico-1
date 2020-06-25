@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: / demo-medico-1
+exclude: ['readme.md']
