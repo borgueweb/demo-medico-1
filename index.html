@@ -1,3 +1,5 @@
+---
+---
 <!doctype html>
 <html lang="en">
   <head>
@@ -7,6 +9,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <title>Clínica</title>
   </head>
@@ -15,11 +18,27 @@
 <div class="container-fluid">
   <div class="row shadow">
     <div class="container">
-      <nav class="navbar navbar-expand-lg ">
-        {% include icon-clock.html %}
+      <nav class="row navbar navbar-expand-lg">
 
+        <div class="col">
+          <nav class="navbar navbar-expand-lg text-info ">
+            <i class="pr-2 align-content-center d-flex">{% include icon-clock.html %}</i>
+            <span class="text-secondary small mr-3">lun-vier 08:00-17:00</span>
 
+            <i class="pr-2 align-content-center d-flex">{% include icon-phone.html %}</i>
+            <span class="text-secondary small mr-3">+502 5318-7757</span>
 
+            <i class="pr-2 align-content-center d-flex">{% include icon-envelope.html %}</i>
+            <span class="text-secondary small">billy_claverie@yahoo.com</span>
+          </nav>
+        </div>
+
+        <div class="col justify-content-end d-flex">
+          <i class="px-2 text-info">{% include icon-facebook.html %}</i>
+          <i class="px-2 text-info">{% include icon-linkedin.html %}</i>
+          <i class="px-2 text-info">{% include icon-instagram.html %}</i> 
+        </div>
+      
       </nav>
     </div>
   </div>
