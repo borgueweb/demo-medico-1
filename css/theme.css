@@ -1,0 +1,32 @@
+/*Btn*/
+.btn-rounded {
+	border-radius: 24px;
+}
+/*Hero*/
+.hero {
+  min-height: 65vh;
+  background: #000 url(https://demo.goodlayers.com/mediz/hospital/wp-content/uploads/sites/2/2019/12/slider-hospital-2-1-n.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero2 {
+  min-height: 65vh;
+  background: #000 url(https://pixabay.com/get/57e8d5444f56ad14f6d1867dda35367b1c3cdfed5a537949_1920.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero:before {
+  content:"";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+}
+.hero-content {
+  position: absolute;
+  bottom: 15px;
+  color: #fff;
+}
+/*---*/
