@@ -9,40 +9,88 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
 
     <title>Clínica</title>
   </head>
-  <body>
+  <body class="bg-light">
 
-<div class="container-fluid">
-  <div class="row shadow py-2">
-    <div class="container">
-      <nav class="row navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <div class="row shadow py-2 bg-white">
+        <div class="container">
+          <nav class="row navbar navbar-expand-lg">
 
-        <div class="col">
-          <nav class="navbar navbar-expand-lg text-info ">
-            <i class="pr-2 align-content-center d-flex">{% include icon-clock.html %}</i>
-            <span class="text-secondary small mr-3">lun-vier 08:00-17:00</span>
+            <div class="col px-0">
+              <nav class="navbar navbar-expand-lg text-info px-0">
+                <i class="pr-2 align-content-center d-flex">{% include icon-clock.html %}</i>
+                <span class="text-secondary small mr-3">lun-vier 08:00-17:00</span>
 
-            <i class="pr-2 align-content-center d-flex">{% include icon-phone.html %}</i>
-            <span class="text-secondary small mr-3">+502 5318-7757</span>
+                <i class="pr-2 align-content-center d-flex">{% include icon-phone.html %}</i>
+                <span class="text-secondary small mr-3">+502 5318-7757</span>
 
-            <i class="pr-2 align-content-center d-flex">{% include icon-envelope.html %}</i>
-            <span class="text-secondary small">billy_claverie@yahoo.com</span>
+                <i class="pr-2 align-content-center d-flex">{% include icon-envelope.html %}</i>
+                <span class="text-secondary small">billy_claverie@yahoo.com</span>
+              </nav>
+            </div>
+
+            <div class="col-2 justify-content-end d-flex px-0">
+              <i class="px-2 text-info">{% include icon-facebook.html %}</i>
+              <i class="px-2 text-info">{% include icon-linkedin.html %}</i>
+              <i class="px-2 text-info">{% include icon-instagram.html %}</i> 
+            </div>
+          
           </nav>
         </div>
-
-        <div class="col-2 justify-content-end d-flex">
-          <i class="px-2 text-info">{% include icon-facebook.html %}</i>
-          <i class="px-2 text-info">{% include icon-linkedin.html %}</i>
-          <i class="px-2 text-info">{% include icon-instagram.html %}</i> 
+      </div>
+      <div class="container">
+        <div class="row py-4">
+          <div class="col">
+            <img src="/images/logo.png" alt="">
+          </div>
         </div>
-      
-      </nav>
+        <nav class="nav navbar-expand-lg ">
+          
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"> {% include icon-hamburger.html %} </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link pl-0 text-info" href="#">Inicio<span class="sr-only">(current)</span></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Quiénes somos</a>
+              </li>
+
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle text-secondary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Nuestros servicios
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+              <button class="btn my-2 my-sm-0 btn-info" type="submit">Contáctenos</button>
+            </form>
+
+          </div>
+
+
+
+
+        </nav>
+      </div>
     </div>
-  </div>
-</div>
 
 
 
