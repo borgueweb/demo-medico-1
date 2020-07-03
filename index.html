@@ -1,196 +1,214 @@
----
----
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
+<!DOCTYPE html>
+<html>
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>demo-medico</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/best-carousel-slide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Navbar-responsive.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/theme.css">
-
-    <title>Clínica</title>
-  </head>
-  <body class="bg-light">
-  
-    <!-- Header -->
-    <div class="container-fluid">
-      <div class="row shadow py-2 bg-white">
+<body>
+    <header class="shadow d-none d-lg-block py-4">
         <div class="container">
-          <nav class="row navbar navbar-expand-lg">
-
-            <div class="col px-0">
-              <nav class="navbar navbar-expand-lg text-info px-0">
-                <i class="pr-2 align-content-center d-flex">{% include icon-clock.html %}</i>
-                <span class="text-secondary small mr-3">lun-vier 08:00-17:00</span>
-
-                <i class="pr-2 align-content-center d-flex">{% include icon-phone.html %}</i>
-                <span class="text-secondary small mr-3">+502 5318-7757</span>
-
-                <i class="pr-2 align-content-center d-flex">{% include icon-envelope.html %}</i>
-                <span class="text-secondary small">billy_claverie@yahoo.com</span>
-              </nav>
-            </div>
-
-            <div class="col-2 justify-content-end d-flex px-0">
-              <i class="px-2 text-info">{% include icon-facebook.html %}</i>
-              <i class="px-2 text-info">{% include icon-linkedin.html %}</i>
-              <i class="px-2 text-info">{% include icon-instagram.html %}</i> 
-            </div>
-          
-          </nav>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row py-4">
-          <div class="col-3">
-            <img src="https://raw.githubusercontent.com/borgueweb/demo-medico-1/master/images/logo.png" class="img-fluid" alt="">
-          </div>
-        </div>
-        <nav class="nav navbar-expand-lg mb-4">
-          
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"> {% include icon-hamburger.html %} </span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link pl-0 text-info" href="#">Inicio<span class="sr-only">(current)</span></a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link text-secondary" href="#">Quiénes somos</a>
-              </li>
-
-              <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle text-secondary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Nuestros servicios
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
+            <div class="row">
+                <div class="col-lg-6 col-xl-6 text-nowrap"><span class="pr-3"><i class="far fa-clock text-info pr-2"></i><span class="small text-secondary">lun-vier 08:00-17:00</span></span><span class="pr-3"><i class="icon-phone text-info pr-2"></i><span class="small text-secondary">+502 5318-7757</span></span><span><i class="fa fa-envelope-o text-info pr-2"></i><span class="small text-secondary">billy_claverie@yahoo.com</span>&nbsp;</span>
                 </div>
-              </li>
-            </ul>
-
-            <form class="form-inline my-2 my-lg-0">
-              <button class="btn my-2 my-sm-0 btn-info btn-rounded" type="submit">Contáctenos</button>
-            </form>
-
-          </div>
+                <div class="col-lg-2 col-xl-2 offset-lg-4 offset-xl-4 d-lg-flex d-xl-flex justify-content-lg-end align-items-lg-center justify-content-xl-end align-items-xl-center"><i class="fab fa-facebook-f text-info"></i><i class="fa fa-linkedin text-info px-3"></i><i class="fab fa-instagram text-info"></i></div>
+            </div>
+        </div>
+    </header>
+    <div class="container px-0 pt-4 d-none d-md-block">
+        <nav class="navbar navbar-light navbar-expand-md px-0 d-none d-md-block">
+            <div class="container-fluid"><a class="navbar-brand" href="#"><img src="https://raw.githubusercontent.com/borgueweb/demo-medico-1/master/images/logo.png" width="255"></a></div>
         </nav>
-      </div>
     </div>
-    <!-- EndHeader -->
-    
-    <!-- Carousel -->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-
-  <div class="carousel-inner">
-    <div class="carousel-item active"> 
-      <div class="hero"> 
-        <div class="container">     
-          <div class="hero-content"> 
-            <div class="row"> 
-              <div class="col-md-12"> 
-                <h1>Bootstrap Hero Image</h1> 
-              </div>  
-              <div class="col-md-6"> 
-                <p>Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image</p> 
-              </div>  
-              <div class="col-md-6"> 
-                <p>Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image</p> 
-              </div>
-            </div> 
-          </div>
-        </div> 
-      </div>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
+        <div class="container"><a class="navbar-brand" href="#"><img class="d-md-none" src="https://raw.githubusercontent.com/borgueweb/demo-medico-1/master/images/logo.png" width="255"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav mr-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active pl-0 text-info" href="#">Inicio</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link text-secondary" href="#">Quiénes somos</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link text-secondary" data-toggle="dropdown" aria-expanded="false" href="#">Servicios</a>
+                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Servicio 1</a><a class="dropdown-item" role="presentation" href="#">Servicio 2</a><a class="dropdown-item" role="presentation" href="#">Servicio 3</a></div>
+                    </li>
+                </ul><span class="navbar-text actions"> <a class="btn btn-light action-button" role="button" href="#">Contáctenos</a></span></div>
+        </div>
+    </nav>
+    <section id="carousel">
+        <div class="carousel slide" data-ride="carousel" id="carousel-1">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item">
+                    <div class="jumbotron pulse animated hero-nature carousel-hero">
+                        <div class="row justify-content-center py-5">
+                            <div class="col-md-5 col-lg-5"></div>
+                            <div class="col-md-5 col-lg-5 offset-md-0">
+                                <h1 class="text-left display-4">Guillermo Claverie</h1>
+                                <h2 class="text-left text-info bg-light">Traumatólogo y ortopedista</h2>
+                                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid <br>excepturi, incidunt eos dolores ut modi amet ex laborum doloremque.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="jumbotron pulse animated hero-photography carousel-hero">
+                        <div class="row justify-content-center py-5">
+                            <div class="col-md-5 col-lg-5 offset-md-0">
+                                <h1 class="text-left display-4">10,000+</h1>
+                                <h2 class="text-left text-info bg-light">Pacientes recuperados</h2>
+                                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid <br>excepturi, incidunt eos dolores ut modi amet ex laborum doloremque.</p>
+                            </div>
+                            <div class="col-md-5 col-lg-5"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="jumbotron pulse animated hero-technology carousel-hero">
+                        <div class="row justify-content-center py-5">
+                            <div class="col-md-5 col-lg-5 offset-xl-0"></div>
+                            <div class="col-md-5 col-lg-5 offset-md-0">
+                                <h1 class="text-left display-4">La mejor</h1>
+                                <h2 class="text-left text-info bg-light">Tecnología médica de última generación</h2>
+                                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid <br>excepturi, incidunt eos dolores ut modi amet ex laborum doloremque.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><i class="fa fa-chevron-left"></i><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><i class="fa fa-chevron-right"></i><span class="sr-only">Next</span></a></div>
+            <ol
+                class="carousel-indicators" style="transform: translateY( -50px);">
+                <li data-target="#carousel-1" data-slide-to="0"></li>
+                <li data-target="#carousel-1" data-slide-to="1"></li>
+                <li data-target="#carousel-1" data-slide-to="2" class="active"></li>
+                </ol>
+        </div>
+    </section>
+    <div class="container">
+        <div class="jumbotron bg-info" style="margin-top: -50px;position: relative;">
+            <div class="row">
+                <div class="col col-12 col-md-6">
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="text-light"><i class="fas fa-heartbeat mr-2"></i>Servicios de emergencia</h3><span class="d-xl-flex align-items-xl-start"></span></div>
+                    </div>
+                    <div class="row">
+                        <div class="col text-light">
+                            <p>An emergency department (ED), also known as an accident &amp; emergency <br>department (A&amp;E), emergency room (ER), emergency ward (EW) or <br>casualty department, is a medical treatment.</p>
+                        </div>
+                    </div>
+                    <div class="row h4 text-light">
+                        <div class="col"><span>tel.:+502 5318-7757</span></div>
+                    </div>
+                </div>
+                <div class="col col-12 col-md-6 mt-4 mt-md-0">
+                    <div class="row">
+                        <div class="col"><span></span></div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="text-light"><i class="far fa-clock mr-2"></i>Horario de atención</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-light">Edificio Multimédica, oficina 000 calle 999 zona 15</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="table-responsive">
+                                <table class="table text-light">
+                                    <thead>
+                                        <tr></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>lun - vie</td>
+                                            <td>8:00 - 17:00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>sáb</td>
+                                            <td>8:00-12:00</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="carousel-item">
-      <div class="hero2"> 
-        <div class="container">     
-          <div class="hero-content"> 
-            <div class="row"> 
-              <div class="col-md-12"> 
-                <h1>Bootstrap Hero Image</h1> 
-              </div>  
-              <div class="col-md-6"> 
-                <p>Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image</p> 
-              </div>  
-              <div class="col-md-6"> 
-                <p>Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image</p> 
-              </div>
-            </div> 
-          </div>
-        </div> 
-      </div>
+    <div>
+        <div class="container">
+            <h3 class="text-info pb-2 pt-5">Nuestros Servicios</h3>
+            <div class="row">
+                <div class="col col-4 p-4">
+                    <h4><i class="far fa-star mr-2 text-info"></i>Lesiones Deportivas</h4>
+                    <p></p>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid&nbsp;<br>excepturi, incidunt eos dolores ut modi amet ex laborum doloremque.</p><a href="#">ver más</a></div>
+                <div class="col col-4 p-4">
+                    <h4><i class="far fa-star mr-2 text-info"></i>Lesiones Degenerativas</h4>
+                    <p></p>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid&nbsp;<br>excepturi, incidunt eos dolores ut modi amet ex laborum doloremque.</p><a href="#">ver más</a></div>
+                <div class="col col-4 p-4">
+                    <h4><i class="far fa-star mr-2 text-info"></i>Servicio 3</h4>
+                    <p></p>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid&nbsp;<br>excepturi, incidunt eos dolores ut modi amet ex laborum doloremque.</p><a href="#">ver más</a></div>
+                <div class="col col-4 p-4">
+                    <h4><i class="far fa-star mr-2 text-info"></i>Servicio 4</h4>
+                    <p></p>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid&nbsp;<br>excepturi, incidunt eos dolores ut modi amet ex laborum doloremque.</p><a href="#">ver más</a></div>
+                <div class="col col-4 p-4">
+                    <h4><i class="far fa-star mr-2 text-info"></i>Servicio 5</h4>
+                    <p></p>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid&nbsp;<br>excepturi, incidunt eos dolores ut modi amet ex laborum doloremque.</p><a href="#">ver más</a></div>
+                <div class="col col-4 p-4">
+                    <h4><i class="far fa-star mr-2 text-info"></i>Servicio 6</h4>
+                    <p></p>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid&nbsp;<br>excepturi, incidunt eos dolores ut modi amet ex laborum doloremque.</p><a href="#">ver más</a></div>
+            </div>
+            <div class="jumbotron mt-5 bg-info">
+                <div class="row">
+                    <div class="col text-center text-light">
+                        <h1>5000+</h1>
+                        <p>Pacientes atendidos</p>
+                    </div>
+                    <div class="col text-center text-light">
+                        <h1>30</h1>
+                        <p>Premios</p>
+                    </div>
+                    <div class="col text-center text-light">
+                        <h1>2000</h1>
+                        <p>Paragraph</p>
+                    </div>
+                    <div class="col text-center text-light">
+                        <h1>150</h1>
+                        <p>Paragraph</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="carousel-item">
-     <div class="hero3"> 
-        <div class="container">     
-          <div class="hero-content"> 
-            <div class="row"> 
-              <div class="col-md-12"> 
-                <h1>Bootstrap Hero Image</h1> 
-              </div>  
-              <div class="col-md-6"> 
-                <p>Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image</p> 
-              </div>  
-              <div class="col-md-6"> 
-                <p>Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image</p> 
-              </div>
-            </div> 
-          </div>
-        </div> 
-      </div>
-    </div>
-  </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Multi-Level-Navbar.js"></script>
+    <script src="assets/js/Navbar-responsive.js"></script>
+</body>
 
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-    <!-- EndCarousel -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
 </html>

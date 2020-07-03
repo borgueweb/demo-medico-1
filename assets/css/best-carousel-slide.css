@@ -1,0 +1,73 @@
+div.jumbotron.carousel-hero {
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+}
+
+div.jumbotron.hero-nature {
+  background: linear-gradient(rgba(23, 162, 184, 0.25), rgba(0, 0, 0, 0.5)), url(https://demo.goodlayers.com/mediz/hospital/wp-content/uploads/sites/2/2019/12/slider-hospital-2-1-n.jpg) center center no-repeat;
+  background-size: auto, auto;
+}
+
+div.jumbotron.hero-photography {
+  background: linear-gradient(rgba(23, 162, 184, 0.47), rgba(0, 0, 0, 0.5)), url(http://t.commonsupport.com/healing/images/main-slider/image-1.jpg) center center no-repeat;
+  background-size: auto, auto;
+}
+
+div.jumbotron.hero-technology {
+  background: linear-gradient(rgba(23, 162, 184, 0.47), rgba(0, 0, 0, 0.5)), url(https://raw.githubusercontent.com/borgueweb/demo-medico-1/master/images/surgery-1807541_1920.jpg) center center no-repeat;
+  background-size: auto, auto;
+}
+
+h1.hero-title, h2.hero-title, h3.hero-title {
+  text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+  color: #fff;
+}
+
+p.hero-subtitle {
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.plat {
+  border-radius: 0px;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 0 #048f83!important;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #016090;
+  border-color: #016090;
+}
+
+.btn.btn-primary {
+  background-color: #048f83!important;
+  border-color: #048f83!important;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 .2rem rgba(0,123,255,.5);
+}
+
+* {
+  /*box-sizing: inherit;*/
+}
+
+*:before, *:after {
+  /*box-sizing: inherit;*/
+}
+
+span {
+  font-style: inherit;
+  font-weight: inherit;
+}
+

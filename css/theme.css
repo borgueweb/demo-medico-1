@@ -5,19 +5,19 @@
 /*Hero*/
 .hero {
   min-height: 65vh;
-  background: linear-gradient(rgba(23, 162, 184, 0.47), rgba(0, 0, 0, 0.5)), url(https://demo.goodlayers.com/mediz/hospital/wp-content/uploads/sites/2/2019/12/slider-hospital-2-1-n.jpg) center center no-repeat;
+  background: linear-gradient(rgba(23, 162, 184, 0.25), rgba(0, 0, 0, 0.5)), url(https://demo.goodlayers.com/mediz/hospital/wp-content/uploads/sites/2/2019/12/slider-hospital-2-1-n.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
 .hero2 {
   min-height: 65vh;
-  background: linear-gradient(rgba(23, 162, 184, 0.47), rgba(0, 0, 0, 0.5)), url(https://raw.githubusercontent.com/borgueweb/demo-medico-1/master/images/surgery-1807541_1920.jpg) center center no-repeat;
+  background: linear-gradient(rgba(23, 162, 184, 0.47), rgba(0, 0, 0, 0.5)), url(http://t.commonsupport.com/healing/images/main-slider/image-1.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
 .hero3 {
   min-height: 65vh;
-  background: linear-gradient(rgba(23, 162, 184, 0.47), rgba(0, 0, 0, 0.5)), url(http://t.commonsupport.com/healing/images/main-slider/image-1.jpg) center center no-repeat;
+  background: linear-gradient(rgba(23, 162, 184, 0.47), rgba(0, 0, 0, 0.5)), url(https://raw.githubusercontent.com/borgueweb/demo-medico-1/master/images/surgery-1807541_1920.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -36,4 +36,19 @@
   color: #fff;
 }
 
-/*---*/
+/*Spacing*/
+.pt-30 {
+  padding-top: 30%;
+}
+.pt-20 {
+  padding-top: 20%;
+}
+/*Display*/
+.d-grid {
+  display: grid;
+}
+.jumbotron{
+  margin-top: -100px;
+  z-index: 2;
+  position: relative;
+}
